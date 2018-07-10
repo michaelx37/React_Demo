@@ -1,0 +1,16 @@
+﻿@{
+    Layout = null;
+    // Note: In a real ASP.NET MVC site, you'd use a layout.
+    // However, to keep this tutorial simple, we will keep all HTML in the one view file.
+}
+<html>
+<head>
+    <title>Hello React</title>
+</head>
+<body>
+    <div id="content"></div>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.0/umd/react.development.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="@Url.Content("~/Scripts/Tutorial.jsx")"></script>
+</body>
+</html>
