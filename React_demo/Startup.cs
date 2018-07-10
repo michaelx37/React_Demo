@@ -7,16 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-
-
-
-
-
-
-
 using Microsoft.AspNetCore.Http;
 using React.AspNet;
-
+//gnooooo
 
 namespace React_demo
 {
