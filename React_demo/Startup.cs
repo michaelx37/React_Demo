@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using React.AspNet;
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,9 +11,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-using Microsoft.AspNetCore.Http;
-using React.AspNet;
-//gnooooo
 
 namespace React_demo
 {
